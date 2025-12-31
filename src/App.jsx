@@ -546,11 +546,18 @@ const App = () => {
                   <a href="mailto:rahilgala30@gmail.com" className="block text-lg font-bold hover:text-green-500 dark:text-white dark:hover:text-green-400 transition-colors" aria-label="Email Rahil">rahilgala30@gmail.com</a>
                   <a href="mailto:rahilgala30@gmail.com" className="mt-4 inline-block px-4 py-2 bg-green-400 hover:bg-green-500 text-black font-bold rounded">Email Me</a>
                 </div>
+
                 <div className="bg-gray-50 dark:bg-neutral-900 border border-gray-100 dark:border-neutral-800 rounded-lg p-6">
-                  <p className="text-[10px] font-bold tracking-[0.2em] text-gray-400 dark:text-gray-500 uppercase mb-2">Location</p>
-                  <div className="flex items-center gap-2 text-lg md:text-xl font-bold text-black dark:text-white">
-                    <MapPin className="w-5 h-5 text-green-500" /> Mumbai, India
-                  </div>
+                  <p className="text-[10px] font-bold tracking-[0.2em] text-gray-400 dark:text-gray-500 uppercase mb-2">Phone</p>
+                  <a href="tel:+919664115703" className="block text-lg font-bold hover:text-green-500 dark:text-white dark:hover:text-green-400 transition-colors" aria-label="Call Rahil">+91-9664115703</a>
+                  <a href="tel:+919664115703" className="mt-4 inline-block px-4 py-2 border border-gray-200 dark:border-neutral-700 rounded font-bold">Call</a>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-neutral-900 border border-gray-100 dark:border-neutral-800 rounded-lg p-6">
+                <p className="text-[10px] font-bold tracking-[0.2em] text-gray-400 dark:text-gray-500 uppercase mb-2">Location</p>
+                <div className="flex items-center gap-2 text-lg md:text-xl font-bold text-black dark:text-white">
+                  <MapPin className="w-5 h-5 text-green-500" /> Mumbai, India
                 </div>
               </div>
 
